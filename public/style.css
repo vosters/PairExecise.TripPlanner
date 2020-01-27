@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* background-color: #C1B5AD; */
+}
+
+#map {
+  height: 90vh;
+  width: 100vw;
+}
+
+#nav {
+  background-color: white;
+  padding: 2px 15px;
+  display: flex;
+}
+
+#content {
+  display: flex;
+}
+
+#sidebar {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+#places {
+  padding: 15px;
+  background-color: white;
+  margin-top: 20px;
+}
+#nav_links {
+  display: inline-flex;
+  list-style: none;
+}
+
+#nav_links li {
+  padding: 15px 20px;
+}
